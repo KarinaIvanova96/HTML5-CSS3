@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 180px;
+    height: 50px;
+    display: inline-block;
+    margin: 20px 40px;
+}
+
+header {
+    height: 90px;
+    box-shadow: 5px 0 1px #cccccc;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav span {
+    float: right;
+    padding-right: 50px;
+    height: 90px;
+    line-height: 90px;
+}
+
+header nav span:first-child a {
+    color: #bb432c;
+}
+
+header nav span:first-child a:hover {
+    color: #6795de;
+}
+
+.background {
+    position: absolute;
+    background-image: url(../images/background.jpg);
+    height: 400px;
+    min-width: 100%;
+}
+
+.info {
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+}
+
+.info .content {
+    display: inline-block;
+    height: 400px;
+    padding: 85px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.monitor {
+    display: inline-block;
+    position: relative;
+}
+
+.monitor img {
+    position: relative;
+    padding-top: 75px;
+    z-index: 2;
+}
+
+.monitor .screen {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 653px;
+    height: 460px;
+    z-index: 1;
+}
+
+.monitor .screen img {
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    display: inline-block;
+    background-color: #F7BCAE;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.button:hover {
+    color: #547A90;
+    background-color: #FDF7D4;
+}
+
+.separator {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    background-color: #f3f3f3;
+    box-shadow: 5px 0 1px #cccccc;
+    float: left;
+}
+
+.items.wrapper {
+    text-align: center;
+}
+
+.items.wrapper .image {
+    display: inline-block;
+    margin: 20px;
+}
+
+.items.wrapper .text {
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+    text-align: left;
+}
+
+.items.wrapper .item:nth-child(even) {
+    background-color: #f3f3f3;
+    box-shadow: 5px 0 1px #cccccc;
+}
+
+.items.wrapper .item:nth-child(even) .image{
+    margin: 0;
+}
+
+.community {
+    display: inline-block;
+    width: 100%;
+    background-color: #f3f3f3;
+    box-shadow: 5px 0 1px #cccccc;
+}
+
+.community h1 {
+    font-size: 34px;
+    padding: 32px 0 0 0;
+}
+
+.comments {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+
+.comment {
+    width: 45%;
+    float: left;
+    min-height: 170px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border-bottom: 4px solid #e0e0e0;
+    margin: 28px 0;
+    position: relative;
+}
+
+.comment p {
+    color: #404040;
+    font-size: 24px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.comment:before, .comment:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.comment:before {
+    left: 36px;
+    bottom: -26px;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    border-top: 24px solid #e0e0e0;
+}
+
+.comment:after {
+    left: 40px;
+    bottom: -20px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+}
+
+.comments .comment:nth-child(odd) {
+    margin-right: 10%;
+}
+
+.community .button {
+    width: 120px;
+    margin: 12px 0 50px 0;
+}
+
+.community .button:hover {
+    background-color: #d45d46;
+    color: inherit;
+}
+
+.community .join {
+    display: inline-block;
+    width: 100%;
+}
+
+.qualified {
+    display: inline-block;
+    width: 100%;
+}
+
+.qualified h2 {
+    font-size: 16px;
+    padding: 32px 0 24px 0;
+    color: #808080;
+    text-align: center;
+}
+
+.qualified p {
+    margin: 15px 0;
+}
+
+.qualified .wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.qualified-img {
+    width: 300px;
+}
+
+.qualified .part {
+    width: 50%;
+    float: left;
+    padding: 0 30px 24px 30px;
+}
+
+.qualified .part:nth-child(5) {
+    border-left: 1px solid #ebebeb;
+}
+
+.assess-img {
+    width: 120px;
+}
+
+.interact-img {
+    width: 120px;
+}
+
+.qualified .learn-more {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+}
+
+.qualified .button:hover {
+    background-color: #d45d46;
+    color: inherit;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer .wrapper {
+    text-align: center;
+    display: inline-block;
+}
+
+footer span {
+    display: inline-block;
+    padding: 16px;
+    float: left;
+}
+
+footer a {
+    color: #bb432c;
+}
+
+footer a:hover {
+    color: #bb432c;
+}
